@@ -1,0 +1,49 @@
+@media (min-width: 0px){
+    .block{
+        display: none;
+    }
+    .des{
+    margin-top: 0 !important;
+   margin-right: -15px !important;
+}
+    .src{
+        float: right;
+      margin-top: -30px;
+    margin-right: -10px;
+    }
+    .scroll{
+        margin: 0 auto;
+    }
+}
+
+
+/*small*/
+
+@media (min-width: 576px) and (max-width:767px) {
+   .block{
+        display: none;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width:991px) 
+{ 
+    .block{
+        display: none;
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+      .block{
+        display:none;
+    }
+    
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+     .block{
+         display:block;
+    }
+}
